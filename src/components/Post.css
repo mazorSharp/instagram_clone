@@ -1,0 +1,127 @@
+.post {
+    outline: 1px solid #dbdbdb;
+    margin: auto auto 30px auto;
+    width: 600px;
+    background: #ffffff;
+}
+
+.header-Username {
+    display: inline;
+    color: #262626;
+    font-size: 14px;
+}
+
+.header-Username-Image {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    justify-items: center;
+    align-items: center;
+}
+
+.post-Header-Icon {
+    padding: 20px 15px;
+    float: right;
+    color: #262626;
+}
+
+.post-Header-Icon:hover {
+    cursor: pointer;
+}
+
+.delete-Post-Button {
+    padding: 40%;
+    cursor: pointer;
+    color: red;
+}
+
+.post-Image {
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+}
+
+.post-Icon {
+    padding: 25px 12px 15px 0;
+}
+
+.post-Icon:hover {
+    cursor: pointer;
+}
+
+.post-Icon:hover {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.fa-bookmark {
+    padding: 25px 15px 15px;
+    float: right;
+}
+
+.fa-bookmark:hover {
+    cursor: pointer;
+}
+
+.likes {
+    font-size: 14px;
+}
+
+.true {
+    color: red;
+}
+
+
+.post-Username {
+    font-size: 14px;
+    display: inline-flex;
+}
+
+.comment-Section {
+    padding-left: 15px;
+    color: #262626;
+    font-size: 14px;
+}
+
+.post-Caption {
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.post-Comment-User {
+    font-size: 14px;
+    display: inline;
+}
+
+.post-Since {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.comment-Form-Container {
+    margin-left: -15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    outline: 1px solid #dbdbdb;
+}
+
+.comment-Input {
+    display: inline;
+    border: none;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.comment-Submit-Button {
+    border: none;
+    font-weight: 600;
+    background: white;
+    color: #0095f6;
+}
+
+@media screen and (max-width: 600px) {
+    .post {
+        width: 100vw;
+    }
+
+}

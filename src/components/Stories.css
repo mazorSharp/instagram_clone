@@ -1,0 +1,21 @@
+.stories {
+    padding: 10px;
+    display: flex;
+    outline: 1px solid #dbdbdb;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background: #ffffff;
+    width: 600px;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+
+.story-Image-Div {
+
+    margin: 10px;
+    /* #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d */
+}
+
+.story-Username {
+    font-size: 12px;
+}
